@@ -1,0 +1,42 @@
+{
+  "name": "eat-the-blocks-staking-client",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@moralisweb3/common-evm-utils": "^2.14.3",
+    "@moralisweb3/evm-utils": "^2.14.3",
+    "moralis": "^2.14.3",
+    "react": "16.14.0",
+    "react-bootstrap": "^2.0.0-beta.4",
+    "react-dom": "16.14.0",
+    "react-router-dom": "^6.8.2",
+    "react-scripts": "3.2.0",
+    "react-toastify": "^8.0.2",
+    "styled-components": "^5.3.8",
+    "web3": "1.2.2"
+  },
+  "scripts": {
+ "build": "react-scripts build --openssl-legacy-provider",
+"start": "react-scripts start --openssl-legacy-provider",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "engines": {
+  "node": "16.x"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
