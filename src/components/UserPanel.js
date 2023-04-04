@@ -221,7 +221,7 @@ export default function UserPanel() {
         }
 
         toast.dismiss();
-        let amount = web3.utils.toWei(inputUnstake.toString(), "ether");
+        let amount = web3.utils.toWei(inputUnstake.toString(), "gwei");
         toast.info('Please approve transaction...', { position: 'top-left', autoClose: false });
         try {
             await stakerContract.methods.withdraw(amount).send({ from: accounts[0] });
